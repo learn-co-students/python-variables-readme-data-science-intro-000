@@ -27,6 +27,13 @@ So far we have only worked with data -- strings, numbers, and booleans.  In this
 "art vandelay"
 ```
 
+
+
+
+    'art vandelay'
+
+
+
 Now months later, if we see that string in some code, we may be confused as to what it's about.  And when we add more data, this only becomes more difficult.  Think of the what we saw in our **Data Types Lab**: `"art.vandelay@vandelay.co"`, `"Ceo"`, `"7285553334"`, `"vandelay.com"`.  There's a lot to keep track of.
 
 So let's use a variables to indicate what each of these strings mean.
@@ -66,6 +73,18 @@ Note that if you introduce a new variable, (declare it), but do not also assign 
 name
 ```
 
+
+    ----------------------------------------------------------
+
+    NameError                Traceback (most recent call last)
+
+    <ipython-input-6-9bc0cb2ed6de> in <module>()
+    ----> 1 name
+    
+
+    NameError: name 'name' is not defined
+
+
 So that error tells us that `name` is not defined.  We just fix this by declaring `name` and assigning the variable in the same line.
 
 
@@ -79,6 +98,7 @@ So this is assigning and reading a variable.  And when we want to see some infor
 
 ```python
 email
+
 ```
 
 ### Reassigning variables
